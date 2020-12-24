@@ -1,0 +1,21 @@
+.page-footer {
+  background-color: $footer-background-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.page-footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: #fff;
+}
+
+.page-footer__title {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  color: $white-text-color;
+
+  @extend %title-uppercase;
+}
