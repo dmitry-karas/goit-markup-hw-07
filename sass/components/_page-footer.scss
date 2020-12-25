@@ -1,5 +1,5 @@
 .page-footer {
-  background-color: $footer-background-color;
+  background-color: var(--footer-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -15,7 +15,7 @@
   display: inline-block;
   margin-bottom: 20px;
 
-  color: $white-text-color;
+  color: var(--white-text-color);
 
   @extend %title-uppercase;
 }

@@ -518,7 +518,7 @@
 
     <!-- ========== MODAL WINDOW ========== -->
 
-    <div class="backdrop is-hidde" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-button" data-modal-close>
           <svg class="close-button__icon" width="18" height="18">
@@ -571,7 +571,7 @@
           </div>
 
           <div class="textarea modal__form-field">
-            <label for="comment">Комментарий</label>
+            <label class="modal__form-label" for="comment">Комментарий</label>
             <textarea
               class="modal__form-textarea"
               name="comment"
@@ -581,9 +581,9 @@
           </div>
 
           <div class="modal__form-checkbox">
-            <label for="agreement">
+            <label class="modal__form-checkbox-label" for="agreement">
               <input
-                class="visually-hidden"
+                class="visually-hidden modal__form-checkbox-input"
                 type="checkbox"
                 name="agreement"
                 id="agreement"

@@ -5,6 +5,109 @@
   margin-bottom: 10px;
 }
 
+.modal__form-label {
+  margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 1.16;
+
+  letter-spacing: 0.01em;
+
+  color: var(--primary-text-color);
+}
+
 .modal__form-textarea {
   margin-bottom: 20px;
+}
+
+.modal__form-input,
+.modal__form-textarea {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 42px;
+  outline: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+
+  color: var(--primary-text-color);
+
+  transition: border-color 250ms var(--timing-function);
+
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+
+.modal__form-textarea {
+  height: 120px;
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+
+  &::placeholder {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+  }
+}
+
+.modal__input-icon {
+  position: absolute;
+  left: 12px;
+  bottom: 11px;
+  fill: currentColor;
+
+  transition: color 250ms var(--timing-function);
+
+  .modal__form-input:hover + &,
+  .modal__form-input:focus + & {
+    color: var(--accent-color);
+  }
+}
+
+.modal__form-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.modal__form-checkbox-label {
+  display: flex;
+  align-items: center;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+.modal__check-icon {
+  color: var(--white-text-color);
+  margin-right: 8px;
+  border: 2px solid var(--title-text-color);
+  border-radius: 2px;
+  fill: currentColor;
+
+  transition: background-color 250ms var(--timing-function),
+    border-color 250ms var(--timing-function);
+
+  .modal__form-checkbox-input:checked + & {
+    border: none;
+    background-color: var(--accent-color);
+  }
+}
+
+.modal__agreement-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--accent-color);
 }

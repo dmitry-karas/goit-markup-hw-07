@@ -748,7 +748,7 @@ textarea {
 /* .form-field.textarea {
   margin-bottom: 20px;
 } */
-.form-field label {
+/* .form-field label {
   margin-bottom: 4px;
 
   font-size: 12px;
@@ -757,8 +757,8 @@ textarea {
   letter-spacing: 0.01em;
 
   color: var(--primary-text-color);
-}
-.form-input,
+} */
+/* .form-input,
 .form-textarea {
   padding-top: 11px;
   padding-bottom: 11px;
@@ -774,49 +774,49 @@ textarea {
   color: var(--primary-text-color);
 
   transition: border-color 250ms var(--timing-function);
-}
-.form-input:focus,
+} */
+/* .form-input:focus,
 .form-textarea:focus {
   border-color: var(--accent-color);
-}
-.form-input:hover + .input-icon,
+} */
+/* .form-input:hover + .input-icon,
 .form-input:focus + .input-icon {
   color: var(--accent-color);
-}
-.form-field .form-textarea {
+} */
+/* .form-field .form-textarea {
   min-height: 120px;
   padding-top: 12px;
   padding-right: 16px;
   padding-bottom: 12px;
   padding-left: 16px;
-}
-.form-field textarea::placeholder {
+} */
+/* .form-field textarea::placeholder {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
-}
+} */
 
-.input-icon {
+/* .input-icon {
   position: absolute;
   left: 12px;
   bottom: 11px;
   fill: currentColor;
 
   transition: color 250ms var(--timing-function);
-}
-.form-checkbox {
+} */
+/* .form-checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-}
-.form-checkbox label {
+} */
+/* .form-checkbox label {
   display: flex;
   align-items: center;
-}
-.check-icon {
+} */
+/* .check-icon {
   color: var(--white-text-color);
   margin-right: 8px;
   border: 2px solid var(--title-text-color);
@@ -825,25 +825,25 @@ textarea {
 
   transition: background-color 250ms var(--timing-function),
     border-color 250ms var(--timing-function);
-}
-.form-checkbox input {
+} */
+/* .form-checkbox input {
   position: absolute;
   margin-right: 8px;
-}
-.form-checkbox input:checked + .check-icon {
+} */
+/* .form-checkbox input:checked + .check-icon {
   border: none;
   background-color: var(--accent-color);
-}
-.form-checkbox label {
+} */
+/* .form-checkbox label {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
-}
-.agreement-link {
+} */
+/* .agreement-link {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: var(--accent-color);
-}
+} */
 /* ========== END MODAL WINDOW ========== */

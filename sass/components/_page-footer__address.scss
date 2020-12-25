@@ -16,13 +16,13 @@
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: $primary-background-color;
+  color: var(--primary-background-color);
 }
 
 .page-footer__address-link {
   color: rgba(255, 255, 255, 0.6);
 
-  transition: color 250ms $timing-function;
+  transition: color 250ms var(--timing-function);
 
   &:hover,
   &:focus {

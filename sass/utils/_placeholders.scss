@@ -8,7 +8,7 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: $title-text-color;
+  color: var(--title-text-color);
 }
 
 // font style for titles with uppercase
@@ -27,5 +27,5 @@
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: $title-text-color;
+  color: var(--title-text-color);
 }

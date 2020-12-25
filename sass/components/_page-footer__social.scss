@@ -21,14 +21,14 @@
   border-radius: 50%;
 
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms $timing-function;
+  transition: background-color 250ms var(--timing-function);
 
   &:hover,
   &:focus {
-    background-color: $accent-color;
+    background-color: var(--accent-color);
   }
 }
 
 .page-footer__social-icon {
-  fill: $white-text-color;
+  fill: var(--white-text-color);
 }

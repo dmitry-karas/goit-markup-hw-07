@@ -1,6 +1,6 @@
 .page-header {
-  background-color: $primary-background-color;
-  border-bottom: 1px solid $border-color;
+  background-color: var(--primary-background-color);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .page-header__logo {
@@ -17,7 +17,7 @@
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition: color 250ms $timing-function;
+  transition: color 250ms var(--timing-function);
 }
 
 .page-header__address {
@@ -28,7 +28,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: $title-text-color;
+  color: var(--title-text-color);
 }
 
 .page-header__icon {
@@ -40,12 +40,12 @@
   display: flex;
   align-items: center;
   font-style: normal;
-  color: $primary-text-color;
+  color: var(--primary-text-color);
 }
 
 .page-header__link {
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: var(--accent-color);
   }
 }

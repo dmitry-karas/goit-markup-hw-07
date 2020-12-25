@@ -20,19 +20,19 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: $title-text-color;
+  color: var(--title-text-color);
 
-  transition: color 250ms $timing-function;
+  transition: color 250ms var(--timing-function);
 
   &--current {
     position: relative;
 
-    color: $accent-color;
+    color: var(--accent-color);
   }
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: var(--accent-color);
   }
 }
 
@@ -47,6 +47,6 @@
     height: 4px;
     border-radius: 4px;
 
-    background-color: $accent-color;
+    background-color: var(--accent-color);
   }
 }
