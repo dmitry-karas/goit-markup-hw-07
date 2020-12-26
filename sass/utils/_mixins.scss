@@ -1,6 +1,6 @@
 // geometry & font style for section title
 
-%title-section {
+@mixin title-section {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -13,7 +13,7 @@
 
 // font style for titles with uppercase
 
-%title-uppercase {
+@mixin title-uppercase {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -22,7 +22,7 @@
 
 // font style for team cards
 
-%team-card-font {
+@mixin team-card-font {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;

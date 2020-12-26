@@ -3,7 +3,7 @@
 }
 
 .team__title {
-  @extend %title-section;
+  @include title-section;
 }
 
 .team__list {
@@ -27,13 +27,13 @@
 }
 
 .team__name {
-  @extend %team-card-font;
+  @include team-card-font;
 
   margin-bottom: 10px;
 }
 
 .team__profession {
-  @extend %team-card-font;
+  @include team-card-font;
 
   margin-top: 0;
   margin-bottom: 16px;

@@ -6,20 +6,14 @@
 @import './utils/visually-hidden';
 
 @import './layout/page-header';
-@import './layout/hero';
-@import './layout/features';
-@import './layout/services';
-@import './layout/team';
-@import './layout/clients';
 @import './layout/page-footer';
 
 @import './components/section';
-@import './components/backdrop';
 @import './components/button';
 @import './components/site-nav';
 @import './components/logo';
-@import './components/modal';
-@import './components/modal__form';
+@import './components/portfolio__filter';
+@import './components/portfolio__card-set';
 @import './components/page-footer__address';
 @import './components/page-footer__social';
 @import './components/page-footer__subscr';

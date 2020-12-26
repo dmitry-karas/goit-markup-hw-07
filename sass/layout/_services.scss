@@ -1,5 +1,5 @@
 .services__title {
-  @extend %title-section;
+  @include title-section;
 }
 
 .services__list {
@@ -27,4 +27,6 @@
 
   text-align: center;
   color: var(--white-text-color);
+
+  @include title-uppercase;
 }

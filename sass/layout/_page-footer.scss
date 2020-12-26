@@ -17,5 +17,5 @@
 
   color: var(--white-text-color);
 
-  @extend %title-uppercase;
+  @include title-uppercase;
 }

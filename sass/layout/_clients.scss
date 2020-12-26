@@ -1,5 +1,5 @@
 .clients__title {
-  @extend %title-section;
+  @include title-section;
 }
 
 .clients__list {
