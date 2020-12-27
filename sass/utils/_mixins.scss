@@ -1,3 +1,11 @@
+// pseudo-elements
+
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+  content: $content;
+  display: $display;
+  position: $pos;
+}
+
 // geometry & font style for section title
 
 @mixin title-section {

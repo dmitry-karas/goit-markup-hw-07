@@ -38,8 +38,7 @@
 
 .site-nav__link--current {
   &::after {
-    content: '';
-    position: absolute;
+    @include pseudo;
     left: 0;
     bottom: -1px;
 
